@@ -1,0 +1,38 @@
+.NavbarItems {
+    height: 100px;
+    display: flex;
+    padding-top: center;
+    justify-content: center; 
+    align-items: center;
+    /* background-color: #8D99CE; */
+    background-color: black;
+    background-position: center center;
+    color: white;
+}
+
+.navbar-logo {
+    justify-content: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+img {
+    width: 14rem;  
+    height: auto;  
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 7vw;
+    list-style: none;
+    text-align: center;
+    width: 80vw;
+    justify-content: end;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+}
+
+.title {
+    
+}
