@@ -1,19 +1,7 @@
-@font-face {
-    font-family: 'Source Code Pro', monospace;;
-    src: url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-}
-
 div {
     display: block;
-    font-family: 'Source Code Pro', monospace;
 }
 
-.container {
-    background-color: #CC3E40;
-    background-size: cover;
-    width: 100%;
-    height: 545px;
-}
 
 p {
     max-width: 50rem;

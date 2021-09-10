@@ -3,43 +3,48 @@ import bg from "./img/ted-background.png";
 import "./Home.css"
 import Navbar from "../Navbar/Navbar";
 import Typewriter from 'typewriter-effect';
+import { BrowserRouter } from "react-router-dom";
 
 class Home extends React.Component {
     render() {
         return(
-            <div className="root">
-                <div>
-                    <div className="content">
-                        <main>
-                            <div className="container">
-                                <Navbar />
-                                
+            <div>
+                <div className="content">
+                    <main>
+                        <div className="container">
+                            <BrowserRouter> <Navbar /> </BrowserRouter>
+                            
+                            <div className="outerContainer" style={{
+                                backgroundSize: "contain",
+                                backgroundColor: "#CC3E40",
+                                width: "100%",
+                                height: "425px",
+                            }}> 
                                 <div className="innerContainer" style={{
-                                    paddingTop: "5rem",
+                                    paddingTop: "3rem",
                                     marginLeft: "5rem",
-                                    marginBottom: "5rem",
                                     fontSize: "3rem",
                                     color: "white",
                                 }}>
-                                    <div className="header">
+                                    <div className="header" style={{padding: "1rem"}}>
                                         <Typewriter 
-                                            onInit={(Typewriter) => {
-                                                Typewriter.typeString("TEDxUCSD - IDEAS WORTH SPREADING")
-                                                .start();
+                                            options = {{
+                                                autoStart: true,
+                                                loop: true,
+                                                delay: 40,
+                                                strings:[ "TEDxUCSD - IDEAS WORTH SPREADING"],
                                             }}
                                         />
                                     </div>
 
-                                    <div style={{
-                                        fontSize: "1.6rem",
-                                    }}>
+                                    <div style={{fontSize: "1.6rem",padding: "1rem"}}>
                                         <p>
                                             Bring together leading thinkers and doers to share ideas that matter in and to any discipline  - technology, entertainment, design, science, humanities, business, development, and much more.
                                         </p>
                                     </div>
 
-                                    <div>
-                                        <a className="button">
+                                    <div  style={{paddingLeft: "1rem", paddingTop: "0.5rem"}}>
+                                        <a className="button" >
                                             LEARN MORE
                                             <span className="shadow"></span>
                                         </a>
@@ -47,35 +52,25 @@ class Home extends React.Component {
 
                                     <span style={{display: "table", clear: "both",}}></span>
                                 </div>
+                            </div>
 
-                                <div className="outerContainer" style={{paddingTop: "3rem"}}> 
-                                    <h1 className="header" style={{textAlign: "center"}}> TEDX'S HIGHLIGHTS</h1>
+                            <div className="outerContainer" style={{paddingTop: "3rem"}}> 
+                                <h1 className="header" style={{textAlign: "center"}}> TEDX'S HIGHLIGHTS</h1>
 
-                                    <div className="innerContainer" style={{
-                                        padding: "center",
-                                    }}> 
-                                    </div>
+                                <div className="innerContainer" style={{
+                                    padding: "center",
+                                    maxWidth: "500px",
+                                    maxHeight: "100%",
+                                }}> 
+                                    <a className="constellate">
+                                        constellate
+                                    </a>
                                 </div>
                             </div>
-                        </main>
-                    </div>
+                        </div>
+                    </main>
                 </div>
             </div>
-            // <div className="container" style={{
-                // backgroundImage: `url(${bg})`,
-                // backgroundRepeat: 'no-repeat',
-                // backgroundSize: "cover",
-                // width:'100%',
-                // height: "500px",
-            // }}>
-            //     <div className="innerContainer"> 
-            //         <div className="header"> TEDXUCSD - IDEAS WORTH SPREADING</div>
-
-            //         <p style={{marginBottom: "3.6rem"}}>
-            //         Bring together leading thinkers and doers to share ideas that matter in and to any discipline  - technology, entertainment, design, science, humanities, business, development, and much more.
-            //         </p>
-            //     </div>
-            // </div>
         );
     }
 }
