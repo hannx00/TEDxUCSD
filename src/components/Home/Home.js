@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "./img/ted-background.png";
+import constell from "./img/constell.png";
 import "./Home.css"
 import Navbar from "../Navbar/Navbar";
 import Typewriter from 'typewriter-effect';
@@ -43,7 +43,7 @@ class Home extends React.Component {
                                         </p>
                                     </div>
 
-                                    <div  style={{paddingLeft: "1rem", paddingTop: "0.5rem"}}>
+                                    <div style={{paddingLeft: "1rem", paddingTop: "0.5rem"}}>
                                         <a className="button" >
                                             LEARN MORE
                                             <span className="shadow"></span>
@@ -54,17 +54,42 @@ class Home extends React.Component {
                                 </div>
                             </div>
 
-                            <div className="outerContainer" style={{paddingTop: "3rem"}}> 
-                                <h1 className="header" style={{textAlign: "center"}}> TEDX'S HIGHLIGHTS</h1>
+                            <div className="outerContainer" style={{padding: "5rem"}}> 
+                                <h1 className="header" style={{textAlign: "center", fontSize: "3.5rem"}}> TEDX'S HIGHLIGHTS</h1>
 
                                 <div className="innerContainer" style={{
-                                    padding: "center",
-                                    maxWidth: "500px",
+                                    padding: "4rem 1rem",
+                                    textAlign: "center",
+                                    writingMode: "horizontal-tb",
+                                    width: "100%",
                                     maxHeight: "100%",
                                 }}> 
-                                    <a className="constellate">
-                                        constellate
-                                    </a>
+                                    <div className="contell logo" style={{
+                                        height: "100%",
+                                        width: "50%",
+                                        float: "left",
+                                        cursor: "pointer",
+                                    }}>
+                                        <a>
+                                            <img src={constell} style={{width: "75%"}}/>
+                                        </a>
+                                    </div>
+
+                                    <div className="constell script" style={{
+                                        height: "100%",
+                                        width: "50%",
+                                        float: "right",
+                                        padding: "4rem 1rem",
+                                        fontSize: "1.8rem"
+                                    }}>
+                                        <p>Our main event that we've been working so hard on for the past year is taking place on May 15th and 16th. Feel free to pre-register via zoom below and come to discover more about the stories that connect us. From live talks to Q+As, you won't want to miss it!</p>
+                                        
+                                        <div style={{paddingTop: "3rem", borderRadius: "8px", textDecoration: "none"}}>
+                                            <a href="https://youtube.com/playlist?list=PLg1NTgC-T_v3aGs4TwZhRpZce89dfQNBi" target="_blank" className="button" >
+                                                WATCH HERE 
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
