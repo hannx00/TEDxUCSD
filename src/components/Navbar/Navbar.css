@@ -14,12 +14,6 @@
     cursor: pointer;
 }
 
-img {
-    width: 13rem;  
-    height: auto;  
-    padding-left: 13px !important;
-}
-
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);

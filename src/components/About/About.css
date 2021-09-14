@@ -1,0 +1,33 @@
+.intro {
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.team {
+    box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 3rem;
+    width: 33.33%;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.pfp {
+    height: 300px;
+}
+
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title {
+    padding: 2rem
+}

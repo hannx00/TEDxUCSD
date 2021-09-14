@@ -19,7 +19,11 @@ class Navbar extends React.Component {
                 <div className="navbar">
                     <div className="navbar-container">
                         <Link to="/" className="navbar-logo">
-                            <img src={ logo }/>
+                            <img src={ logo } alt="tedx-logo" style={{
+                                width: "13rem",
+                                height: "auto",
+                                paddingLeft: "13px !important"
+                            }}/>
                         </Link>
 
                         <div className="menu-icon" onClick={this.handleClick}>
