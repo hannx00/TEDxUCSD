@@ -1,18 +1,44 @@
-.bg {
-    max-height: 100%;
-    max-width: 100%;
-    background-image: url(./img/ted-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(0, 96, 100);
-    background-position: center center;
-    color: rgb(255, 205, 210);
+.outerContainer {
+    box-sizing: border-box;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 2000px;
+    height: 500px;
 }
 
+
 .innerContainer {
-    padding-top: 10rem;
-    margin-left: 5rem;
-    margin-bottom: 3.6rem;
-    font-size: 3rem;
-    color:rgb(0, 96, 100);
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    color: white;
+    padding: 0 7.2rem;
+    height: 500px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 1rem;
+    white-space: nowrap;
+    border-style: solid;
+    border-width: .3rem!important;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.button .shadow {
+    width: 100%;
+    border-style: solid;
+    border-width: 2remn;
+    position: absolute;
+    left: .8rem;
+    top: .8rem;
+    display: inline-block;
+    height: 100%;
+    z-index: -1;
+    border-color: black;
 }

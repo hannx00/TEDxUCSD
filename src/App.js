@@ -6,10 +6,9 @@ import Home from "./components/Home/Home";
 class App extends React.Component {
   render() {
     return(
-      <diiv>
-        <Navbar />
+      <div>
         <Home />
-      </diiv>
+      </div>
     );
   }
 }
