@@ -1,38 +1,97 @@
-.NavbarItems {
-    height: 100px;
+.navbar {
     display: flex;
+    height: 100px;
     padding-top: center;
-    justify-content: center; 
+    justify-content: left; 
     align-items: center;
-    /* background-color: #8D99CE; */
     background-color: black;
     background-position: center center;
     color: white;
 }
 
 .navbar-logo {
-    justify-content: left;
     margin-left: 20px;
     cursor: pointer;
 }
 
-img {
-    width: 14rem;  
-    height: auto;  
-}
-
-.menu-items {
+.nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 7vw;
+    grid-gap: 50px;
     list-style: none;
     text-align: center;
     width: 80vw;
     justify-content: end;
-    margin-right: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
-.title {
-    
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
 }
+
+.nav-links:hover {
+    background-color: red;
+    border-radius: 4px;
+    transition: all 0.4s ease-out;
+}
+
+.fa-bars {
+    color: white
+}
+
+.menu-icon {
+    display: none;
+}
+
+
+/* @media screen and (max-width: 968px) {
+    .navbar {
+        position: relative;
+        justify-content: left;
+    }
+    
+    .nav-menu {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        flex-wrap: wrap;
+        flex-direction: column;
+        top: 80px;
+        left: 100%;
+        opacity: 1;
+        transition: all 0.5s ease; 
+    }
+
+    .nav-menu.active {
+        background: black;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;        
+    }
+
+    .fa-times {
+        color: white;
+        font-size: 2rem;
+    } 
+} */

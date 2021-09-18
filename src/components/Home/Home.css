@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .outerContainer {
     box-sizing: border-box;
     position: relative;
@@ -37,8 +38,39 @@
     position: absolute;
     left: .8rem;
     top: .8rem;
+=======
+div {
+    display: block;
+}
+
+
+.button {
+    padding: 1rem;
+    border-style: solid;
+    border-width: .1rem!important;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.shadow {
+    width: 100%;
+    border-style: solid;
+    border-width: .1rem;
+    position: absolute;
+    left: .7rem;
+    top: .7rem;
+>>>>>>> f4afbcc9313f4021a75c7876136ce1de5cab0e02
     display: inline-block;
     height: 100%;
     z-index: -1;
     border-color: black;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f4afbcc9313f4021a75c7876136ce1de5cab0e02
