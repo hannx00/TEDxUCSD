@@ -3,55 +3,13 @@ import constell from "./img/constell.png";
 import podcast from "./img/podcast1.png";
 import "./Home.css"
 import Navbar from "../Navbar/Navbar";
-<<<<<<< HEAD
-=======
 import Typewriter from 'typewriter-effect';
 import { BrowserRouter } from "react-router-dom";
->>>>>>> f4afbcc9313f4021a75c7876136ce1de5cab0e02
 
 class Home extends React.Component {
     render() {
         return(
             <div>
-<<<<<<< HEAD
-                <main> 
-                    <Navbar />
-
-                    <div style={{
-                    background: "#FF1F1F",
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: "cover",
-                    width:'100%',
-                    height: "700px",
-                    }}>
-                        <div style={{paddingTop: "8vw",}}>
-                            <div className="outerContainer"> 
-                                <div className="innerContainer"> 
-                                    <h1 style={{marginBottom: "3.6rem"}}>TEDXUCSD - IDEAS WORTH SPREADING</h1>
-                                    <p style={{width: "1000px", fontSize:"2rem"}}>Bring together leading thinkers and doers to share ideas that matter in and to any discipline - technology, entertainment, design, science, humanities, business, development, and much more.</p>
-                                    <div style={{paddingTop: "2rem", paddingBottom: "7.2rem"}}> 
-                                        <a class="button text_caption" style={{
-                                            color: "rgb(252, 228, 236)",
-                                            background: "black",
-                                            borderColor: "black",}}>
-                                            LEARN MORE
-                                            <span class="shadow"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="outerContainer">
-                        <div className="innerContainer"> 
-                            <h1 style={{color: "black", justifyContent: "center", textAlign: "center"}} >TEDx's HIGHLIGHTS</h1>
-
-                            <div className="event"> </div>
-                        </div>
-                    </div>
-                </main>
-=======
                 <div className="content">
                     <main>
                         <div className="container">
@@ -123,7 +81,7 @@ class Home extends React.Component {
                                         cursor: "pointer",
                                     }}>
                                         <a>
-                                            <img src={constell} style={{width: "75%"}}/>
+                                            <img src={constell} style={{width: "60%"}}/>
                                         </a>
                                     </div>
 
@@ -170,14 +128,14 @@ class Home extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="contell logo" style={{
+                                    <div className="podcast logo" style={{
                                         height: "100%",
                                         width: "50%",
                                         float: "left",
                                         cursor: "pointer",
                                     }}>
                                         <a>
-                                            <img src={podcast} style={{width: "73%"}}/>
+                                            <img src={podcast} style={{width: "60%"}}/>
                                         </a>
                                     </div>
                                 </div>
@@ -190,7 +148,6 @@ class Home extends React.Component {
                         </div>
                     </main>
                 </div>
->>>>>>> f4afbcc9313f4021a75c7876136ce1de5cab0e02
             </div>
         );
     }

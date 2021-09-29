@@ -7,11 +7,6 @@ import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-ro
 class App extends React.Component {
   render() {
     return(
-<<<<<<< HEAD
-      <div>
-        <Home />
-      </div>
-=======
       <Router>
         <Switch>
           <Route exact path="/">
@@ -27,7 +22,6 @@ class App extends React.Component {
           </Route>
         </Switch>
       </Router>
->>>>>>> f4afbcc9313f4021a75c7876136ce1de5cab0e02
     );
   }
 }
