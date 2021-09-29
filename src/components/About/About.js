@@ -2,8 +2,9 @@ import React from "react";
 import "./About.css";
 import Navbar from "../Navbar/Navbar";
 import { BrowserRouter } from "react-router-dom";
-import bg from "./img/bg.jpg"
-import aurora from "./img/Aurora.png"
+import bg from "./img/bg.jpg";
+import aurora from "./img/Aurora.png";
+
 class About extends React.Component {
     render() {
         return(
