@@ -13,4 +13,4 @@ Technologies: React (packages: nodejs, bootstrap), HTML, CSS, Github, Chrome Dev
 
 
 
-*Developed with love by web dev subteam @ TEDxUCSD*
+*Developed with <3 by web dev subteam @ TEDxUCSD*
