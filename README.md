@@ -6,9 +6,9 @@ This is a work-in-progress project. We are revamping the current website for a b
 
 Technologies: React (packages: nodejs, bootstrap), HTML, CSS, Github, Chrome Dev Tool. 
 
-### Video Walkthrough
+### Video Walkthrough (as of 9/2021)
 
-<img src="ezgif.com-gif-maker (1).gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="walkthrough.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 *Developed by web dev subteam @ TEDxUCSD*
