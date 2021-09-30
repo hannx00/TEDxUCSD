@@ -1,4 +1,4 @@
-# TEDxUCSD Website 2021-2022
+# TEDxUCSD Website [2021-2022]
 
 ### Current official website: https://tedxucsd.com
 
