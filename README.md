@@ -9,7 +9,7 @@ Technologies: React (packages: nodejs, bootstrap), HTML, CSS, Github, Chrome Dev
 ### Video Walkthrough 
 
 #### Sept. 2021
-Skeleton for home and team page.
+Skeleton for home and team pages.
 
 <img src="walkthrough.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
