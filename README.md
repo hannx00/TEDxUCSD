@@ -12,4 +12,5 @@ Technologies: React (packages: nodejs, bootstrap), HTML, CSS, Github, Chrome Dev
 <img src="walkthrough.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
-*Developed by web dev subteam @ TEDxUCSD*
+
+*Developed with love by web dev subteam @ TEDxUCSD*
