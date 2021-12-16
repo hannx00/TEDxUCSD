@@ -8,14 +8,105 @@
     color: white;
     font-size: 2rem;
     font-weight: bolder;
+    padding-left: 1rem;
 }
 
 .banner-script {
-    padding: 1rem;
+    padding: 0rem 1rem 0.5rem 1rem;
+    margin: 0;
     font-size: 1.2rem;
 }
 
-.button {
+#about-btn {
+    border: 3px solid whitesmoke;
+    box-shadow: -2px 2px 0 0 whitesmoke;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.event-header {
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+
+.event-card {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        height: 70%;
+        width: 70%; 
+    }
+
+    .event-img {
+        padding: 1rem 2rem 1rem 2rem;
+        width: 80%;
+    }
+
+    .event-description {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    img {
+        height: 60%;
+        width: 60%; 
+    }
+
+    .event-img .event-overview {
+        padding-top: 2rem;
+    }
+
+    .event-overview {
+        width: 40% !important;
+    }
+
+}
+
+@media screen and (min-width: 1028px) {
+    img {
+        height: 50%;
+        width: 50%; 
+    }
+
+    .event-img {
+        padding-top: 1rem;
+        width: 40% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .button {
     max-width: fit-content;
     padding: 0.8rem;
     border-style: solid;
@@ -73,4 +164,4 @@ h1 {
         float: left;
         width: 50%;
     }
-}
+} */

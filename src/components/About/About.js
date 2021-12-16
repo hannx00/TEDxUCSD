@@ -9,8 +9,6 @@ class About extends React.Component {
     render() {
         return(
             <div>
-                <BrowserRouter> <Navbar /> </BrowserRouter>
-
                 <div className="content">
                     <div className="bg" style={{
                         textAlign: "center",
