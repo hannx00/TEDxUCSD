@@ -43,7 +43,7 @@ class Home extends React.Component {
                                     </Col>
                                     <Col className="event-overview">
                                         <p className="event-description">{item.description}</p>
-                                        <Button onClick={() => window.open(item.btn_url, "_blank")}>{item.btn}</Button>
+                                        <Button className="event-btn" onClick={() => window.open(item.btn_url, "_blank")}>{item.btn}</Button>
                                     </Col>
                                 </Row> 
                             )

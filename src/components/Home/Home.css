@@ -1,3 +1,13 @@
+#root {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+html, body{
+    width: 100%;
+    position: relative;
+}
+
 .banner {
     background-color: #CC3E40;
     padding: 2rem;
@@ -34,7 +44,35 @@
     padding: 1rem 0 1rem 0;
 }
 
+img {
+    height: 50%;
+    width: 50%; 
+}
+
+.event-img {
+    padding-top: 1rem;
+}
+
+.event-overview.col {
+    padding: 4rem 2rem 2rem 2rem;
+    font-size: 1.3rem;
+}
+
+.event-overview {
+    width: 45% !important;
+}
+
+.event-btn {
+    padding: 1rem !important; 
+    border-radius: 10px !important;
+}
+
 @media screen and (max-width: 600px) {
+    html{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
     img {
         height: 70%;
         width: 70%; 
@@ -45,39 +83,26 @@
         width: 80%;
     }
 
-    .event-description {
-        padding-left: 2rem;
-        padding-right: 2rem;
+    .event-overview.col {
+        padding: 1rem 3rem 0 3rem;
+    }
+
+    .event-overview {
+        width: 100% !important;
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 1028px){
     img {
         height: 60%;
         width: 60%; 
     }
 
-    .event-img .event-overview {
-        padding-top: 2rem;
-    }
-
-    .event-overview {
-        width: 40% !important;
-    }
-
-}
-
-@media screen and (min-width: 1028px) {
-    img {
-        height: 50%;
-        width: 50%; 
-    }
-
     .event-img {
-        padding-top: 1rem;
-        width: 40% !important;
+        padding-top: 4rem;
     }
 }
+
 
 
 
