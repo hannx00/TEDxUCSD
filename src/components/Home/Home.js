@@ -22,6 +22,7 @@ class Home extends React.Component {
                                 loop: true,
                                 delay: 40,
                                 strings:[ "TEDxUCSD - IDEAS WORTH SPREADING"],
+                                cursor:"",
                                 }}
                             />
                         </h1>
