@@ -1,33 +1,23 @@
-.intro {
-    padding: 3rem;
+main {
     text-align: center;
-    font-size: 1.5rem;
+    padding-top: 2rem;
 }
 
-.team {
-    box-sizing: border-box;
+.about-header {
+    padding-top: 2rem;
 }
 
-/* Create three unequal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 3rem;
-    width: 33.33%;
-    height: 300px; /* Should be removed. Only for demonstration */
+.about-description {
+    padding: 1rem 2rem 2rem 2rem;
+    margin: 0;
 }
 
-.pfp {
-    height: 300px;
+.info-img {
+    width: 60%;
+    padding: 1rem;
 }
 
-  
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.title {
-    padding: 2rem
+.info-name {
+    margin: 0;
+    padding: 1rem 0 0.5rem 0;
 }

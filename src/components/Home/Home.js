@@ -1,14 +1,65 @@
 import React from "react";
-import constell from "./img/constell.png";
-import podcast from "./img/podcast1.png";
-import "./Home.css"
+import "./Home.css";
 import Navbar from "../Navbar/Navbar";
 import Typewriter from 'typewriter-effect';
+<<<<<<< HEAD
+import { withRouter } from 'react-router-dom';
+import { Events } from "./Events";
+import { Container, Row, Col, Button, Image } from 'react-bootstrap';
+=======
 import { BrowserRouter } from "react-router-dom";
+>>>>>>> main
 
 class Home extends React.Component {
+    toAbout=()=> {
+        this.props.history.push("/about");
+    } 
     render() {
         return(
+<<<<<<< HEAD
+            <>
+                <header> 
+                    <Container className="banner" fluid>
+                        <h1 className="typewriter">
+                            <Typewriter 
+                                options = {{
+                                autoStart: true,
+                                loop: true,
+                                delay: 40,
+                                strings:[ "TEDxUCSD - IDEAS WORTH SPREADING"],
+                                cursor:"",
+                                }}
+                            />
+                        </h1>
+                        <p className="banner-script">
+                            Bring together leading thinkers and doers to share ideas that matter in and to any discipline  - technology, entertainment, design, science, humanities, business, development, and much more.
+                        </p>
+                        <Button id="about-btn" onClick={this.toAbout}>LEARN MORE</Button>
+                    </Container>
+                </header>
+                <main fluid>
+                    <h1 className="event-header"> TEDX'S HIGHLIGHTS </h1>
+                    {/* event card */}
+                    <article>
+                        {Events.map((item, index) => {
+                            return (
+                                <Row xs={1} sm={2} className="event-card" key={index}>
+                                    <Col className="event-img">
+                                        <Image src={item.img} fluid/>
+                                    </Col>
+                                    <Col className="event-overview">
+                                        <p className="event-description">{item.description}</p>
+                                        <Button className="event-btn" onClick={() => window.open(item.btn_url, "_blank")}>{item.btn}</Button>
+                                    </Col>
+                                </Row> 
+                            )
+                        })}
+                    </article>
+                </main>
+                
+
+            </>
+=======
             <div>
                 <div className="content">
                     <main>
@@ -149,8 +200,9 @@ class Home extends React.Component {
                     </main>
                 </div>
             </div>
+>>>>>>> main
         );
     }
 }
 
-export default Home;
+export default withRouter(Home);

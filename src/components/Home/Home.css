@@ -1,16 +1,141 @@
+<<<<<<< HEAD
+.banner {
+    background-color: #CC3E40;
+    padding: 2rem;
+    color: white;
+}
+
+.typewriter {
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-left: 1rem;
+    width: 85%;
+}
+
+.banner-script {
+    padding: 0rem 1rem 0.5rem 1rem;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#about-btn {
+    border: 3px solid whitesmoke;
+    box-shadow: -2px 2px 0 0 whitesmoke;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.event-header {
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+
+.event-card {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+
+img {
+    height: 50%;
+    width: 50%; 
+}
+
+.event-img {
+    padding-top: 1rem;
+=======
 div {
     display: block;
+>>>>>>> main
+}
+
+.event-overview.col {
+    padding: 4rem 2rem 2rem 2rem;
+    font-size: 1.3rem;
+}
+
+.event-overview {
+    width: 45% !important;
+}
+
+.event-btn {
+    padding: 1rem !important; 
+    border-radius: 10px !important;
+}
+
+@media screen and (max-width: 600px) {
+    html{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    img {
+        height: 70%;
+        width: 70%; 
+    }
+
+    .event-img {
+        padding: 1rem 2rem 1rem 2rem;
+        width: 80%;
+    }
+
+    .event-overview.col {
+        padding: 1rem 3rem 0 3rem;
+    }
+
+    .event-overview {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1028px){
+    img {
+        height: 60%;
+        width: 60%; 
+    }
+
+    .event-img {
+        padding-top: 4rem;
+    }
 }
 
 
-.button {
-    padding: 1rem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .button {
+    max-width: fit-content;
+    padding: 0.8rem;
     border-style: solid;
     border-width: .1rem!important;
     cursor: pointer;
     position: relative;
     z-index: 1;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
     background-color: black;
     border-color: black;
@@ -22,9 +147,50 @@ div {
     border-width: .1rem;
     position: absolute;
     left: .7rem;
+<<<<<<< HEAD
+    top: .6rem;
+=======
     top: .7rem;
+>>>>>>> main
     display: inline-block;
     height: 100%;
     z-index: -1;
     border-color: black;
+<<<<<<< HEAD
 }
+
+.event-header {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem !important;
+}
+
+.col {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.constell-img {
+    height: 100%;
+    width: 80%;
+}
+
+.constell-script {
+    padding: 2rem 1rem;
+    text-align: center ;
+    font-size: 1.2rem ;
+}
+
+@media screen and (min-width: 600px) {
+    .col {
+        float: left;
+        width: 50%;
+    }
+} */
+=======
+}
+>>>>>>> main
