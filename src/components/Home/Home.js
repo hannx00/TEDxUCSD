@@ -34,10 +34,11 @@ class Home extends React.Component {
                 </header>
                 <main fluid>
                     <h1 className="event-header"> TEDX'S HIGHLIGHTS </h1>
-                    <section>
+                    {/* event card */}
+                    <article>
                         {Events.map((item, index) => {
                             return (
-                                <Row xs={1} sm={2} className="event-card">
+                                <Row xs={1} sm={2} className="event-card" key={index}>
                                     <Col className="event-img">
                                         <Image src={item.img} fluid/>
                                     </Col>
@@ -48,7 +49,7 @@ class Home extends React.Component {
                                 </Row> 
                             )
                         })}
-                    </section>
+                    </article>
                 </main>
                 
 
