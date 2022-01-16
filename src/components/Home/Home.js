@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Typewriter from 'typewriter-effect';
 import { withRouter } from 'react-router-dom';
 import { Events } from "./Events";
+import {Helmet} from "react-helmet";
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 
 class Home extends React.Component {
@@ -13,6 +14,9 @@ class Home extends React.Component {
     render() {
         return(
             <>
+                <Helmet>
+                    <title>TEDxUCSD</title>
+                </Helmet>
                 <header> 
                     <Container className="banner" fluid>
                         <h1 className="typewriter">
