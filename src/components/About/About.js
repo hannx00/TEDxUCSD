@@ -3,6 +3,7 @@ import "./About.css";
 import bg from "./img/bg.jpg";
 import {Helmet} from "react-helmet";
 import {TeamInfo} from "./TeamInfo";
+import { withRouter } from 'react-router-dom';
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 
 
@@ -38,4 +39,4 @@ class About extends React.Component {
     }
 }
 
-export default About;
+export default withRouter(About);
