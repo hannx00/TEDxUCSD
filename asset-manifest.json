@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tedxucsd.com/static/css/main.4e7d27e6.chunk.css",
+    "main.js": "/tedxucsd.com/static/js/main.464e3e21.chunk.js",
+    "main.js.map": "/tedxucsd.com/static/js/main.464e3e21.chunk.js.map",
+    "runtime-main.js": "/tedxucsd.com/static/js/runtime-main.fda4c8d0.js",
+    "runtime-main.js.map": "/tedxucsd.com/static/js/runtime-main.fda4c8d0.js.map",
+    "static/js/2.d6e4f4de.chunk.js": "/tedxucsd.com/static/js/2.d6e4f4de.chunk.js",
+    "static/js/2.d6e4f4de.chunk.js.map": "/tedxucsd.com/static/js/2.d6e4f4de.chunk.js.map",
+    "index.html": "/tedxucsd.com/index.html",
+    "static/css/main.4e7d27e6.chunk.css.map": "/tedxucsd.com/static/css/main.4e7d27e6.chunk.css.map",
+    "static/js/2.d6e4f4de.chunk.js.LICENSE.txt": "/tedxucsd.com/static/js/2.d6e4f4de.chunk.js.LICENSE.txt",
+    "static/media/bg.a8697874.jpg": "/tedxucsd.com/static/media/bg.a8697874.jpg",
+    "static/media/tedxucsd.018f6fe5.png": "/tedxucsd.com/static/media/tedxucsd.018f6fe5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fda4c8d0.js",
+    "static/js/2.d6e4f4de.chunk.js",
+    "static/css/main.4e7d27e6.chunk.css",
+    "static/js/main.464e3e21.chunk.js"
+  ]
+}
