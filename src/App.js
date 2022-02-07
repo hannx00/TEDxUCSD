@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Events from "./components/Events/Events"
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
 import './styles/app.scss';
+import { render } from '@testing-library/react';
 
 class App extends React.Component {
   render() {
@@ -28,4 +29,7 @@ class App extends React.Component {
   }
 }
 
+// // render(<App />, window.document.getElementById('app'));
 export default App;
+
+
