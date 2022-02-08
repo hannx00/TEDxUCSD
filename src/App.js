@@ -5,13 +5,14 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Events from "./components/Events/Events"
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 import './styles/app.scss';
 import { render } from '@testing-library/react';
 
 class App extends React.Component {
   render() {
     return(
-      <Router>
+      <HashRouter>
         <Navbar />
         <Switch>
           <Route exact path="/">
@@ -24,7 +25,7 @@ class App extends React.Component {
             <Events />
           </Route>
         </Switch>
-      </Router>
+      </HashRouter>
     );
   }
 }
