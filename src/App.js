@@ -12,7 +12,7 @@ import { render } from '@testing-library/react';
 class App extends React.Component {
   render() {
     return(
-      <HashRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Switch>
           <Route exact path="/">
