@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/TEDxUCSD/static/css/main.86dcdf0a.chunk.css",
-    "main.js": "/TEDxUCSD/static/js/main.8ca53289.chunk.js",
-    "main.js.map": "/TEDxUCSD/static/js/main.8ca53289.chunk.js.map",
+    "main.js": "/TEDxUCSD/static/js/main.635fa1b4.chunk.js",
+    "main.js.map": "/TEDxUCSD/static/js/main.635fa1b4.chunk.js.map",
     "runtime-main.js": "/TEDxUCSD/static/js/runtime-main.eba4be89.js",
     "runtime-main.js.map": "/TEDxUCSD/static/js/runtime-main.eba4be89.js.map",
-    "static/js/2.852feede.chunk.js": "/TEDxUCSD/static/js/2.852feede.chunk.js",
-    "static/js/2.852feede.chunk.js.map": "/TEDxUCSD/static/js/2.852feede.chunk.js.map",
+    "static/js/2.924ec451.chunk.js": "/TEDxUCSD/static/js/2.924ec451.chunk.js",
+    "static/js/2.924ec451.chunk.js.map": "/TEDxUCSD/static/js/2.924ec451.chunk.js.map",
     "index.html": "/TEDxUCSD/index.html",
     "static/css/main.86dcdf0a.chunk.css.map": "/TEDxUCSD/static/css/main.86dcdf0a.chunk.css.map",
-    "static/js/2.852feede.chunk.js.LICENSE.txt": "/TEDxUCSD/static/js/2.852feede.chunk.js.LICENSE.txt",
+    "static/js/2.924ec451.chunk.js.LICENSE.txt": "/TEDxUCSD/static/js/2.924ec451.chunk.js.LICENSE.txt",
     "static/media/bg.a8697874.jpg": "/TEDxUCSD/static/media/bg.a8697874.jpg",
     "static/media/tedxucsd.018f6fe5.png": "/TEDxUCSD/static/media/tedxucsd.018f6fe5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eba4be89.js",
-    "static/js/2.852feede.chunk.js",
+    "static/js/2.924ec451.chunk.js",
     "static/css/main.86dcdf0a.chunk.css",
-    "static/js/main.8ca53289.chunk.js"
+    "static/js/main.635fa1b4.chunk.js"
   ]
 }
