@@ -12,7 +12,7 @@ import { render } from '@testing-library/react';
 class App extends React.Component {
   render() {
     return(
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Navbar />
         <Switch>
           <Route exact path="/">
