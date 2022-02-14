@@ -5,8 +5,9 @@
 }
 
 .typewriter {
+    font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 2rem;
+    font-size: 3.2rem;
     font-weight: bolder;
     padding-left: 1rem;
     width: 85%;
@@ -15,7 +16,7 @@
 .banner-script {
     padding: 0rem 1rem 0.5rem 1rem;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
 #about-btn {
@@ -23,9 +24,12 @@
     box-shadow: -2px 2px 0 0 whitesmoke;
     margin-top: 0.5rem;
     margin-left: 1rem;
+    font-size: 1.3rem;
 }
 
 .event-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     padding: 2rem 0 0 0;
     text-align: center;
 }
@@ -37,7 +41,7 @@
 
 img {
     height: 50%;
-    width: 50%; 
+    width: 40%; 
 }
 
 .event-img {
@@ -54,7 +58,7 @@ img {
 }
 
 .event-btn {
-    padding: 1rem !important; 
+    padding: 0.8rem !important; 
     border-radius: 10px !important;
 }
 
@@ -67,6 +71,13 @@ img {
     img {
         height: 70%;
         width: 70%; 
+    }
+
+    .typewriter {
+        font-size: 2.5rem;
+    }
+    .banner-script {
+        font-size: 1.5rem;
     }
 
     .event-img {
@@ -91,93 +102,8 @@ img {
 
     .event-img {
         padding-top: 4rem;
+        height: 50%;
     }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .button {
-    max-width: fit-content;
-    padding: 0.8rem;
-    border-style: solid;
-    border-width: .1rem!important;
-    cursor: pointer;
-    position: relative;
-    z-index: 1;
-    font-size: 1rem;
-    color: white;
-    background-color: black;
-    border-color: black;
-}
-
-.shadow {
-    width: 100%;
-    border-style: solid;
-    border-width: .1rem;
-    position: absolute;
-    left: .7rem;
-    top: .6rem;
-    display: inline-block;
-    height: 100%;
-    z-index: -1;
-    border-color: black;
-}
-
-.event-header {
-    padding: 2rem 0 2rem 0;
-    text-align: center;
-}
-
-h1 {
-    font-size: 2rem !important;
-}
-
-.col {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.constell-img {
-    height: 100%;
-    width: 80%;
-}
-
-.constell-script {
-    padding: 2rem 1rem;
-    text-align: center ;
-    font-size: 1.2rem ;
-}
-
-@media screen and (min-width: 600px) {
-    .col {
-        float: left;
-        width: 50%;
-    }
-} */

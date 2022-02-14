@@ -5,13 +5,28 @@ main {
 
 .about-header {
     padding-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 .about-description {
     padding: 1rem 2rem 2rem 2rem;
-    margin: 0;
+    font-size: 1.7rem;
+    margin: auto;
+    width: 50%;
 }
 
+.team-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 70%;
+    margin: auto;
+    /* background-color: black;
+    color: antiquewhite; */
+}
 .info-img {
     width: 60%;
     padding: 1rem;
@@ -20,4 +35,23 @@ main {
 .info-name {
     margin: 0;
     padding: 1rem 0 0.5rem 0;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1028px){
+    .about-description {
+        margin: auto;
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .about-description {
+        margin: 0;
+        width: fit-content;
+    }
+
+    .about-header {
+        font-size: 2rem;
+    }
 }
