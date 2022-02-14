@@ -3,7 +3,8 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Events from "./components/Events/Events"
+import Events from "./components/Events/Events";
+import Sponsors from "./components/Sponsors/Sponsors";
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
 import { HashRouter} from "react-router-dom";
 import './styles/app.scss';
@@ -23,6 +24,9 @@ class App extends React.Component {
           </Route>
           <Route exact path="/events">
             <Events />
+          </Route>
+          <Route exact path="/sponsors">
+            <Sponsors />
           </Route>
         </Switch>
       </Router>

@@ -1,15 +1,15 @@
 import React from "react";
-import "./Events.css";
+import "./Sponsors.css";
 import acnh from "./img/under_construction.jpg";
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import {Helmet} from "react-helmet";
 
-class Events extends React.Component {
+class Sponsors extends React.Component {
     render() {
         return(
             <>
                 <Helmet>
-                    <title>TEDxUCSD | Events</title>
+                    <title>TEDxUCSD | Sponsors</title>
                 </Helmet>
                 <main fluid>
                     <Image src={acnh} fluid/>
@@ -20,4 +20,4 @@ class Events extends React.Component {
     }
 }
 
-export default Events;
+export default Sponsors;
