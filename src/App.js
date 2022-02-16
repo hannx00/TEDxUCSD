@@ -5,31 +5,36 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Events from "./components/Events/Events";
 import Sponsors from "./components/Sponsors/Sponsors";
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
-import { HashRouter} from "react-router-dom";
+import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './styles/app.scss';
-import { render } from '@testing-library/react';
 
 class App extends React.Component {
   render() {
     return(
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/events">
-            <Events />
-          </Route>
-          <Route exact path="/sponsors">
-            <Sponsors />
-          </Route>
-        </Switch>
-      </Router>
+      <div className="page-container">
+        <div className="content-wrap">
+          <Router>
+          <Navbar />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/about">
+              <About />
+            </Route>
+            <Route exact path="/events">
+              <Events />
+            </Route>
+            <Route exact path="/sponsors">
+              <Sponsors />
+            </Route>
+          </Switch>
+        </Router>          
+      </div>
+      <Footer />
+      </div>
+
     );
   }
 }

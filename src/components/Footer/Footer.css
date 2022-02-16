@@ -1,0 +1,69 @@
+.footer-section {
+    background-color: black;
+    color: whitesmoke;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.tedx-logo {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem 0 0 2rem;
+}
+
+.tedx-description {
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+a {
+    color: white !important;
+}
+
+.footer-links {
+    padding-top: 4rem;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+} 
+
+@media screen and (min-width: 600px) and (max-width: 1028px) {
+    .tedx-logo {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 2rem 6rem 0 0;
+    }
+
+    .tedx-description {
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    .footer-links {
+        padding-top: 2rem;
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .tedx-logo {
+        text-align: center;
+        font-size: 1.7rem;
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .tedx-description {
+        max-width: 70%;
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    .footer-links {
+        padding-top: 1.5rem;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}

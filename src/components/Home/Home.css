@@ -1,3 +1,7 @@
+/* main {
+    min-height: calc(100vh - 170px);
+} */
+
 .banner {
     background-color: #CC3E40;
     padding: 2rem;
@@ -21,7 +25,7 @@
 
 #about-btn {
     border: 3px solid whitesmoke;
-    box-shadow: -2px 2px 0 0 whitesmoke;
+    box-shadow: -2px 2px 0 0 black;
     margin-top: 0.5rem;
     margin-left: 1rem;
     font-size: 1.3rem;
@@ -37,30 +41,39 @@
 .event-card {
     text-align: center;
     padding: 1rem 0 1rem 0;
+    font-size: 1.2rem;
 }
-
+.p-span {
+    display: block
+}
 img {
     height: 50%;
     width: 40%; 
+    padding: 1rem 0 1rem 0;
 }
 
-.event-img {
-    padding-top: 1rem;
-}
-
-.event-overview.col {
-    padding: 4rem 2rem 2rem 2rem;
-    font-size: 1.3rem;
-}
-
-.event-overview {
-    width: 45% !important;
+.event-description {
+    max-width: 75%;
+    margin: auto;
+    padding-bottom: 1rem;
 }
 
 .event-btn {
     padding: 0.8rem !important; 
     border-radius: 10px !important;
 }
+
+/* .event-overview.col {
+    padding: 4rem 2rem 2rem 2rem;
+    font-size: 1.3rem;
+}
+
+
+.event-overview {
+    width: 45% !important;
+} */
+
+
 
 @media screen and (max-width: 600px) {
     html{
@@ -94,7 +107,7 @@ img {
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1028px){
+@media screen and (min-width: 600px) and (max-width: 1028px) {
     img {
         height: 60%;
         width: 60%; 
